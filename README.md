@@ -10,6 +10,9 @@ pip install fastapi uvicorn
 ## Ejecutar el servidor
 uvicorn main:app --reload --port 8000
 
+# NOTA
+Se realizo el cambio de url de looker studio ya que no tenia acceso asi que coloque uno por default de looker para que se pudiera visualizar esto en views/Dashboard.jsx (linea 67 del codigo de frontend)
+
 # Frontend
 ## Entrar a la carpeta del frontend
 cd frontend
